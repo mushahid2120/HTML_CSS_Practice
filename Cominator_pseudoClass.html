@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #top-container
+        {
+            height: 150px;
+            background-color: pink;
+            margin-bottom:10px;
+        }
+        #contain-container
+        {
+            min-height:1000px;
+            background-color: yellow;
+            
+        }
+        #side
+        {
+            min-height:900px;
+            background-color: lightcoral;
+            width:20%;
+            /*float:left;*/
+            display: inline-flex;
+        }
+        #main
+        {
+            min-height:900px;
+            background-color:lightblue;
+            width: 80%;
+            /*float:right;*/
+            display:inline-flex;
+        }
+        #footer
+        {
+            min-height:200px;
+            background-color:black;
+            clear:both;
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-container"></div>
+    <div id="content-container">
+        <div id="side"></div>
+        <div id="main"></div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

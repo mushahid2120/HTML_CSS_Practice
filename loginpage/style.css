@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+*
+{
+    padding:0px;                                        /* This recomended practice */
+    margin:0px;
+    box-sizing: border-box;                                 /*This is recomended our box size is what we declare */
+}
+
+body{
+    font-family: 'Lato', sans-serif;                    /* Font size is define for all content */
+}
+
+.outer_box
+{
+    height: 100vh;
+    width:100vw;
+    background:linear-gradient(to top right,#75755e,#a8a8fb);
+    box-sizing:border-box;          
+
+}
+
+.inner_box
+{
+    width:400px;                    
+    margin: 0 auto;                                         /* move the content to the center of the parent element*/
+    position:relative;                                      /* relative to the parent of the content  the content is stating from the half of the page  */
+    top:50%;
+    transform: translatey(-50%);                            /* The content will be shifted 50% from the current position*/
+    padding: 20px 40px;
+    /* background: #ffffffcc; */
+    background:linear-gradient(to top right,#ffffffa5,#bbb888a5);
+    backdrop-filter: blur(8px);                             /*When the any content is overlaping this content then the overlapping content is blurred */
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #277a35;
+    z-index:3;                                              /*This mean that it is comes front when the value is greater the background element */
+
+}
+
+.signup-header h1{
+    font-size: 3rem;
+}
+
+.signup-header p{
+    font-size: 0.9rem;
+    color:#333;
+}
+
+.signup-body{
+    margin:20px 0px;
+}
+.signup-body p
+{
+    margin: 10px 0px;
+}
+.signup-body p label{
+    display:block;
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width:100%;
+    padding:10px;
+    border-radius:4px;
+    border:2px solid #ccc;
+    font-size:1rem;
+    margin-top:4px;
+}
+
+.signup-body p input[type="submit"]
+{
+    color: #349db3;
+    border:none;
+    cursor: pointer;
+}
+
+footer p{
+    color: #555;
+    text-align:center;
+}
+
+footer a{
+    color:#277;
+}
+
+.circle
+{
+    width:160px;
+    height:160px;
+    border-radius:80px;
+    background:linear-gradient(to right,#fff555,#fffddd );
+    position:absolute;
+}
+.c1{
+    top:20px;
+    left:10px;
+}
+.c2
+{
+    bottom:20px;
+    right:30px;
+}

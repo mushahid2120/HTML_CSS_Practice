@@ -1,0 +1,130 @@
+@media screen and (max-width:900px)
+{
+    /* nav section  */
+    .menu{
+        display: none;
+    }
+    .main-menu{
+        display: block;
+        width:20px;
+        font-weight:600;
+        margin:10px;
+    }
+
+    /* Examples Section  */
+    .some-examples{
+        flex-wrap: wrap;
+        gap:20px;
+    }
+    .some-examples a{
+        flex-basis: calc(50% - 10px);
+    /* width:calc(50%-10px); */
+    justify-content: space-evenly;
+    height: 200px;
+    }
+
+    .some-examples h3{
+        font-size: 1.2rem;
+    }
+
+    /* STT Section  */
+     .stt-section{
+        padding-block: 50px;
+     }
+
+     /* companies Section */
+         
+} 
+
+@media screen and (max-width:750px)
+{
+    /* header section  */
+    .secondary-button{
+        width:100%;
+    }
+    .main-section .container 
+    {
+        flex-direction: column-reverse;
+    }
+    .main-section .left 
+    {
+        flex-direction: column;
+        text-align: center;
+        gap:30px;
+    }     
+
+    /* feature section */
+
+    .feature-content{
+    width:calc(50% - 25px);
+    }
+
+    /* detail-feature sectio  */
+    .detail-feature-section{
+        flex-direction: column;
+}
+
+    .feature-text{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* foooter section  */
+    .footer-section{
+        flex-direction: column;
+        text-align: center;
+    }
+     
+    /* sub footer  */
+    .last-menu{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:450px)
+{
+    .container{
+        max-width:92vw;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p
+    {
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    .small-bold{
+        font-size: 0.7rem;
+    }
+
+    /* nav section  */
+    .logo img {
+        width:100%;
+    }
+
+    /* main section  */
+    .main-section .left{
+        align-items: center;
+    }
+
+    /* feature section  */
+
+    .some-featurs{
+        flex-direction: column;
+    }
+    .feature-content{
+        width:100%;
+    }
+
+    /* Example sEction  */
+    .some-examples a{
+        flex-basis: 100%;
+    }
+}

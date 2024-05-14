@@ -1,0 +1,11 @@
+div
+{
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color:blue;
+}
+p
+{
+    border: 20px double blue;
+}

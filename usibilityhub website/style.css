@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* border: 0.5px solid; */
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+nav,main,footer{
+    margin: 0 120px;
+}
+header{
+    text-align: center;
+    height:10vh;
+    width: 100%;
+    background-color: #ffc5dd;
+    font-size: 1.5em;
+    padding-top:8px;
+}
+nav{
+    height:7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    flex-basis:40%;
+}
+.res{
+    flex-basis:5%;
+}
+.sign{
+    padding :7px;
+    border-radius: 5px;
+}
+.up{
+    background-color: blue;
+    color:#ffffff;
+}
+
+.get-started{
+    height: 75vh;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left
+{
+    flex-basis: 30%;
+}
+.right{
+    flex-basis:70%;
+}
+.left h1{
+    color:#340F47;
+    font-size: 2rem;
+}
+.left p{
+    padding : 20px 0;
+    text-align:justify;
+}
+.left a{
+    text-decoration: none;
+    background-color:blueviolet;
+    color:white;
+    border-radius:3px;
+    font-size: larger;
+    padding:4px;
+    
+}
+.right img{
+    height:75vh;
+}
+.companies
+{
+    height:15vh;
+}
+.sec-header{
+    text-align: center;
+    font-size:0.95rem;
+    height:25%;
+    color:#1d0c25;
+    font-weight: bold;
+}
+.company-name{
+    height:75%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.companies-image{
+    width: 100%;
+    height:100%;
+   object-fit: cover;
+   padding:3px;
+}
+
+.feature{
+    height:100vh;
+}
+.feature-heading{
+    height: 25%;
+}
+.feature-heading p,span{
+    display: block;
+    text-align: center;
+}
+
+.feature-heading p
+{
+    font-size: 2rem;
+    margin:20px;
+}
+.feature-heading span{
+    font-size:1.5rem;
+    border-radius: 6px;
+    margin:20px 500px;
+    padding:10px 5px;
+}
+
+.some-features{
+    height:75%;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.feature-content{
+    width: 33%;
+    height:50%;
+    
+}
+
+.feature-content .learn-more,.feature-content p,.feature-content div{
+   position: relative;
+   top:20px;
+ 
+   
+   
+   /* margin:5px 0; */
+
+}
+.feature-content .card{
+    font-size: 2rem;
+    font-weight: bold;
+    padding:0 20px;
+    text-align: center;
+    margin:20px;
+}
+.feature-content p{
+    font-size: 1.5rem;
+    padding:0 20px;
+    text-align: center;
+    margin:20px;
+}
+.learn-more{
+    margin:0 115px;
+    padding:15px 6px;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+.design-pro-1,.design-pro-2,.design-pro-3
+{
+height: 70vh;
+text-align: center;
+}
+.design-pro-1 img,.design-pro-2 img,.design-pro-3 img
+{
+    /* height: 70vh;
+    display: flex;
+    flex-direction: column; */
+    float:right;
+    height:100%;
+    width:60%;
+}
+.design-content,.content-head,.design-main{
+    position:relative;
+    top:25%;
+    margin:15px 0;
+}
+.design-content{
+    font-size: 1.5rem;
+}
+.design-main{
+    font-size:2rem;
+    font-weight:bold;
+}
+.content-head{
+    font-size: 1.2rem;
+}
+.end-possibility{
+    height:60vh;
+}
+.eg-head{
+    height:30%;
+    
+}
+.eg-head .head{
+    font-size:3rem;
+    text-align: center;
+    font-weight: bold;
+}
+.eg-head .see-more-example{
+    font-size:1.5rem;
+    margin: 10px 550px;
+    text-align: left;
+    border-radius:6px;
+    padding:5px 2px;
+    font-weight: bold;
+}
+.example{
+    height: 70%;
+    display:flex;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.examples{
+    text-align-last: left;
+    background-color: red;
+}
+.main-footer{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer-sec{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.usi{
+    font-size: 3rem;
+    align-self: flex-start;
+    position:relative;
+    top:20px;
+}
+
+.list-head{
+    font-size:2rem;
+    font-weight: bold;
+}
+.list-item{
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin:18px 10px;
+}
+.list-item li{
+    margin: 14px 10px;
+}
+
+.sub-footer{
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sub-footer-sec{
+    flex-basis: 33.33%;
+    text-align: center;
+    font-size: 1.2rem;
+}
